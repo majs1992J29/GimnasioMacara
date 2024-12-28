@@ -7,49 +7,91 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+    <!-- Encabezado -->
     <header>
-        <div class="logo">
-            <img src="images/gim_logo.jpeg" alt="Logo Gimnasio Macará" class="logo-image">
-        </div>
-        <nav>
-            <ul>
+        <nav class="navbar">
+            <div class="navbar-logo">
+                <img src="images/gim_logo.jpeg" alt="Logo Gimnasio Macará">
+            </div>
+            <ul class="navbar-menu">
                 <li><a href="#inicio">Inicio</a></li>
                 <li><a href="#planes">Planes</a></li>
-                <li><a href="#clases">Clases</a></li>
+                <li><a href="#espacios">Espacios</a></li>
                 <li><a href="#contacto">Contacto</a></li>
             </ul>
+            <a href="#contacto" class="navbar-button">Contacto</a>
         </nav>
     </header>
 
+    <!-- Hero -->
     <section id="inicio" class="hero">
-        <h2>Bienvenido al Gimnasio Macará</h2>
-        <p>Tu mejor opción para ponerte en forma y alcanzar tus metas.</p>
-        <a href="#planes" class="cta-button">Conoce nuestros planes</a>
-    </section>
-
-    <section id="planes">
-        <h2>Nuestros Planes</h2>
-        <div class="plan">
-            <h3>Básico</h3>
-            <p>$15/mes</p>
-            <ul>
-                <li>Acceso a máquinas</li>
-                <li>Clases grupales</li>
-            </ul>
-        </div>
-        <div class="plan">
-            <h3>Premium</h3>
-            <p>$30/mes</p>
-            <ul>
-                <li>Acceso 24/7</li>
-                <li>Entrenador personal</li>
-            </ul>
+        <div class="hero-content">
+            <h1>Bienvenido al Gimnasio Macará</h1>
+            <p>Tu mejor opción para transformar tu cuerpo y mente.</p>
+            <a href="#planes" class="cta-button">Explora nuestros planes</a>
         </div>
     </section>
 
+    <!-- Servicios -->
+    <section id="planes" class="services">
+        <h2>Nuestros Servicios</h2>
+        <div class="service-cards">
+            <div class="service-card">
+                <img src="images/service1.jpeg" alt="Entrenamiento Personalizado">
+                <h3>Entrenamiento Personalizado</h3>
+                <p>Entrena con nuestros expertos para lograr tus metas.</p>
+            </div>
+            <div class="service-card">
+                <img src="images/service2.jpeg" alt="Clases Grupales">
+                <h3>Clases Grupales</h3>
+                <p>Únete a nuestras clases de yoga, spinning, y más.</p>
+            </div>
+            <div class="service-card">
+                <img src="images/service3.jpeg" alt="Nutrición">
+                <h3>Nutrición</h3>
+                <p>Recibe asesoramiento personalizado en nutrición.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Espacios -->
+    <section id="espacios" class="gym-areas">
+        <h2>Nuestras Áreas</h2>
+        <div class="gym-area-cards">
+            <!-- Card 1: Máquinas de cardio -->
+            <div class="gym-area-card">
+                <img src="images/cardio.jpeg" alt="Máquinas de Cardio">
+                <h3>Máquinas de Cardio</h3>
+                <p>Disfruta de caminadoras, bicicletas y elípticas de última generación.</p>
+            </div>
+
+            <!-- Card 2: Sala de aeróbicos -->
+            <div class="gym-area-card">
+                <img src="images/aerobicos.jpeg" alt="Sala de Aeróbicos">
+                <h3>Sala de Aeróbicos</h3>
+                <p>Perfecta para clases grupales como Zumba, yoga y más.</p>
+            </div>
+
+            <!-- Card 3: Sala de pesas para hombres -->
+            <div class="gym-area-card">
+                <img src="images/pesas_hombres.jpeg" alt="Sala de Pesas para Hombres">
+                <h3>Sala de Pesas (Hombres)</h3>
+                <p>Zona diseñada para entrenamientos de fuerza y musculación.</p>
+            </div>
+
+            <!-- Card 4: Sala de pesas para mujeres -->
+            <div class="gym-area-card">
+                <img src="images/pesas_mujeres.jpeg" alt="Sala de Pesas para Mujeres">
+                <h3>Sala de Pesas (Mujeres)</h3>
+                <p>Un espacio cómodo y seguro para trabajar la fuerza.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pie de página -->
     <footer id="contacto">
         <h3>Contáctanos</h3>
-        <p>Dirección: Calle 22 de Septiembre, Ciudad Macará</p>
+        <p>Dirección: Av. Principal, Ciudad Macará</p>
         <p>Teléfono: +593 123 456 789</p>
         <p>Email: info@gimnasiomacara.com</p>
         <p>&copy; 2024 Gimnasio Macará. Todos los derechos reservados.</p>
