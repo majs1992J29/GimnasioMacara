@@ -12,16 +12,16 @@ body {
     justify-content: space-between;
     align-items: center;
     padding: 10px 20px;
-    background: rgba(0, 0, 0, 0.8); /* Fondo semitransparente */
+    background: black; /* Cambiamos el color al negro */
     color: white;
     position: sticky;
     top: 0;
     z-index: 1000;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Agrega un poco de sombra */
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.2); /* Agrega un poco de sombra */
 }
 
 .navbar-logo img {
-    max-width: 80px; /* Ajusta el tamaño del logo */
+    max-width: 100px; /* Ajusta el tamaño del logo */
     height: auto;
 }
 
