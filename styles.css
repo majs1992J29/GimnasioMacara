@@ -12,15 +12,16 @@ body {
     justify-content: space-between;
     align-items: center;
     padding: 10px 20px;
-    background: #333;
+    background: rgba(0, 0, 0, 0.8); /* Fondo semitransparente */
     color: white;
     position: sticky;
     top: 0;
     z-index: 1000;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Agrega un poco de sombra */
 }
 
 .navbar-logo img {
-    max-width: 120px;
+    max-width: 80px; /* Ajusta el tamaño del logo */
     height: auto;
 }
 
@@ -36,10 +37,11 @@ body {
     color: white;
     text-decoration: none;
     font-weight: bold;
+    transition: color 0.3s ease;
 }
 
 .navbar-menu li a:hover {
-    color: #ffdd00;
+    color: #ffdd00; /* Efecto hover */
 }
 
 .navbar-button {
@@ -49,11 +51,14 @@ body {
     text-decoration: none;
     font-weight: bold;
     border-radius: 5px;
+    transition: background 0.3s ease, color 0.3s ease;
 }
 
 .navbar-button:hover {
     background: #ffcc33;
+    color: black;
 }
+
 
 /* Hero */
 .hero {
